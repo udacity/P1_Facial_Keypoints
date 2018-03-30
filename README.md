@@ -28,13 +28,13 @@ All of the starting code and resources you'll need to compete this project are i
 
 ### Local Environment Instructions
 
-1. Clone the repository, and navigate to the downloaded folder.
+1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
 git clone https://github.com/cezannec/P1_Facial_Keypoints.git
 cd P1_Facial_Keypoints
 ```
 
-2. Create (and activate) a new environment, named `ai` with Python 3.6 and the `numpy` and `pandas` packages for data loading and transformation.
+2. Create (and activate) a new environment, named `ai` with Python 3.6 and the `numpy` and `pandas` packages for data loading and transformation. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__: 
 	```
@@ -101,7 +101,7 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 |  Define a CNN in `models.py`. |  Define a convolutional neural network with at least one convolutional layer, i.e. self.conv1 = nn.Conv2d(1, 32, 5). The network should take in a grayscale, square image. |
 
 
-### Notebook 2:
+### Notebook 2
 
 #### Define the loss and optimization functions
 | Criteria       		|     Meets Specifications	        			            | 
