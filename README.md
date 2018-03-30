@@ -46,6 +46,8 @@ cd P1_Facial_Keypoints
 	conda create --name ai python=3.6 numpy pandas
 	activate ai
 	```
+	
+	At this point your command line should look something like: `(ai) <User>:P1_Facial_Keypoints <user>$`. The `(ai)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 3. Install PyTorch and torchvision.
 	
@@ -67,7 +69,7 @@ All of the data you'll need to train a neural network is in the P1_Facial_Keypoi
 
 ## Notebooks
 
-1. Navigate back to the repo. (Also your source environment should still be activated at this point)
+1. Navigate back to the repo. (Also, your source environment should still be activated at this point)
 ```shell
 cd
 cd P1_Facial_Keypoints
