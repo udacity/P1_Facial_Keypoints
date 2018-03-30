@@ -125,7 +125,7 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| All questions about model and loss choices are answered.  | After training, all questions in notebook 2 about model architecture and choice of loss function are answered. |
+| All questions about model, training, and loss choices are answered.  | After training, all 3 questions in notebook 2 about model architecture, choice of loss function, and choice of batch_size and epoch parameters are answered. |
 
 
 #### Visualize one or more learned feature maps
