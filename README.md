@@ -75,7 +75,10 @@ cd
 cd P1_Facial_Keypoints
 ```
 
-2. Open the first notebook and follow the instructions.
+2. Open the directory of notebooks, using the below command. You'll see all of the project files appear in your local environment; open the first notebook and follow the instructions.
+```shell
+jupyter notebook
+```
 
 
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality and answer all of the questions included in the notebook. __Unless requested, it's suggested that you do not modify code that has already been included.__
