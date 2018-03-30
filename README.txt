@@ -1,24 +1,26 @@
-Rubric:
+__Rubric:__
 
 Listed below are the requirements to pass this project.
 
-* In models.py, specify the CNN architecture; define a convolutional neural network with at least one convolutional layer, i.e. self.conv1 = nn.Conv2d(1, 32, 3).
+Note: Notebook 1 will not be graded; only notebooks 2 and 3, as outlined below.
 
-* In notebook 2, you should train the network after defining its loss and optimization functions. You are encouraged, but not required, to visualize their loss over time/epochs by printing it out occasionally and/or plotting the loss over time.
+- [ ] In models.py, specify the CNN architecture; define a convolutional neural network with at least one convolutional layer, i.e. self.conv1 = nn.Conv2d(1, 32, 3).
 
-* After training, all questions in notebook 2 about model architecture and choice of loss function are answered.
+- [ ] In notebook 2, you should train the network after defining its loss and optimization functions. You are encouraged, but not required, to visualize their loss over time/epochs by printing it out occasionally and/or plotting the loss over time.
 
-* In notebook 2, visualize one or more learned feature maps
+- [ ] After training, all questions in notebook 2 about model architecture and choice of loss function are answered.
 
-* In notebook 3, use a haar cascade face detector to detect faces in a given image
+- [ ] In notebook 2, visualize one or more learned feature maps
 
-* In notebook 3, process each image of a face into the shape your model from notebook 2 expects
+- [ ] In notebook 3, use a haar cascade face detector to detect faces in a given image
 
-* In notebook 3, apply your trained network to the image and display detected key points on a face.
+- [ ] In notebook 3, process each image of a face into the shape your model from notebook 2 expects
+
+- [ ] In notebook 3, apply your trained network to the image and display detected key points on a face.
 
 
 
-For testers:
+__For testers:__
 
 Please answer the following questions, as I'm aimiing to improve and add to this project:
 
