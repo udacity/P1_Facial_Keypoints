@@ -55,6 +55,11 @@ cd P1_Facial_Keypoints
 	```
 	conda install pytorch torchvision -c pytorch 
 	```
+	- __Windows__: 
+	```
+	conda install -c peterjc123 pytorch-cpu
+	pip install torchvision
+	```
 
 6. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 ```
@@ -152,7 +157,7 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 #### Process each image of a face so that it can be input into your trained model
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Turn each detected image of a face into an appropriate input Tensor. | You should transform ay face into a suqare grayscale image and then a Tensor for your model to take it as input. |
+| Turn each detected image of a face into an appropriate input Tensor. | You should transform any face into a normalized, square grayscale image and then a Tensor for your model to take it as input. |
 
 #### Complete the pipeline
 | Criteria       		|     Meets Specifications	        			            | 
