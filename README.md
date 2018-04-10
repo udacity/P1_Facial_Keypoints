@@ -74,7 +74,7 @@ All of the data you'll need to train a neural network is in the P1_Facial_Keypoi
 
 ## Notebooks
 
-1. Navigate back to the repo. (Also, your source environment should still be activated at this point)
+1. Navigate back to the repo. (Also, your source environment should still be activated at this point.)
 ```shell
 cd
 cd P1_Facial_Keypoints
@@ -113,6 +113,11 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 
 ### Notebook 2
 
+#### Define the data transform for training and test data
+| Criteria       		|     Meets Specifications	        			            | 
+|:---------------------:|:---------------------------------------------------------:| 
+|  Define a `data_transform` and apply it whenever you instantiate a DataLoader. |  The composed transform should include: rescaling/cropping, normalization, and turning input images into torch Tensors. The transform should turn any input image into a normalized, square, grayscale image and then a Tensor for your model to take it as input. |
+
 #### Define the loss and optimization functions
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
@@ -137,13 +142,13 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Apply a learned convolutional kernel to an image and see its effects. |  Your CNN "learns" to recognize features and this step requires that you extract at least one convolutional filter fro the trained model, apply it to an image, and see what effect this filter has on the image. |
+| Apply a learned convolutional kernel to an image and see its effects. |  Your CNN "learns" (updates the wights in its convolutional layers) to recognize features and this step requires that you extract at least one convolutional filter from the trained model, apply it to an image, and see what effect this filter has on the image. |
 
 
 #### Answer question about feature visualization
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-|  After visualizing a convolution kernel, applied to an image, answer: what do you think it detects? | This answer should be informed by how the filtered image (from the step above) looks. |
+|  After visualizing a feature map, answer: what do you think it detects? | This answer should be informed by how the filtered image (from the step above) looks. |
 
 
 
@@ -152,12 +157,12 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 #### Detect faces in a given image
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Use a haar cascade face detector to detect faces in a given image. | The submission successfully employs OpenCV's face detection. |
+| Use a haar cascade face detector to detect faces in a given image. | The submission successfully employs OpenCV's face detection to detect all faces in a selected image. |
 
 #### Process each image of a face so that it can be input into your trained model
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Turn each detected image of a face into an appropriate input Tensor. | You should transform any face into a normalized, square grayscale image and then a Tensor for your model to take it as input. |
+| Turn each detected image of a face into an appropriate input Tensor. | You should transform any face into a normalized, square, grayscale image and then a Tensor for your model to take it as input (similar to what the `data_transform` did in Notebook 2. |
 
 #### Complete the pipeline
 | Criteria       		|     Meets Specifications	        			            | 
