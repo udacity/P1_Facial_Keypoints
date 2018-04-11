@@ -16,7 +16,7 @@ __Notebook 1__ : Loading and Visualizing the Facial Keypoint Data
 
 __Notebook 2__ : Defining and Training a Convolutional Neural Network (CNN) to Predict Facial Keypoints
 
-__Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and the Trained CNN from Part 2
+__Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and your Trained CNN
 
 
 ## Project Instructions
@@ -142,7 +142,7 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Apply a learned convolutional kernel to an image and see its effects. |  Your CNN "learns" (updates the wights in its convolutional layers) to recognize features and this step requires that you extract at least one convolutional filter from the trained model, apply it to an image, and see what effect this filter has on the image. |
+| Apply a learned convolutional kernel to an image and see its effects. |  Your CNN "learns" (updates the weights in its convolutional layers) to recognize features and this step requires that you extract at least one convolutional filter from the trained model, apply it to an image, and see what effect this filter has on the image. |
 
 
 #### Answer question about feature visualization
@@ -159,12 +159,12 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 |:---------------------:|:---------------------------------------------------------:| 
 | Use a haar cascade face detector to detect faces in a given image. | The submission successfully employs OpenCV's face detection to detect all faces in a selected image. |
 
-#### Process each image of a face so that it can be input into your trained model
+#### Transform each detected face into an input Tensor
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Turn each detected image of a face into an appropriate input Tensor. | You should transform any face into a normalized, square, grayscale image and then a Tensor for your model to take it as input (similar to what the `data_transform` did in Notebook 2. |
+| Turn each detected image of a face into an appropriate input Tensor. | You should transform any face into a normalized, square, grayscale image and then a Tensor for your model to take in as input (similar to what the `data_transform` did in Notebook 2). |
 
-#### Complete the pipeline
+#### Predict and display the keypoints
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Predict and display the keypoints on each detected face. | After face detection with a Haar cascade and face pre-processing, apply your trained model to each detected face, and display the predicted keypoints on each face in the image. |
