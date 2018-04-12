@@ -10,13 +10,16 @@ In this project, you’ll combine your knowledge of computer vision techniques a
 
 ![Facial Keypoint Detection][image1]
 
-The project will be broken up into a few main parts in three Python notebooks, **only Notebooks 2 and 3 (and the `models.py` file) will be graded**:
+The project will be broken up into a few main parts in four Python notebooks, **only Notebooks 2 and 3 (and the `models.py` file) will be graded**:
 
 __Notebook 1__ : Loading and Visualizing the Facial Keypoint Data
 
 __Notebook 2__ : Defining and Training a Convolutional Neural Network (CNN) to Predict Facial Keypoints
 
 __Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and your Trained CNN
+
+__Notebook 4__ : Fun Filters and Keypoint Uses
+
 
 
 ## Project Instructions
