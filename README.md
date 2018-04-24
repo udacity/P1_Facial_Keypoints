@@ -171,17 +171,3 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Predict and display the keypoints on each detected face. | After face detection with a Haar cascade and face pre-processing, apply your trained model to each detected face, and display the predicted keypoints on each face in the image. |
-
-
-
-__For testers:__
-
-Please answer the following questions, as I'm aiming to improve and add to this project:
-
-* How could this project be improved?
-* Where were the instructions most confusing?
-
-* Would you like the ability to overlay simple graphics on a face -- i.e sunglasses on detected eye keypoints?
-* Would you like to learn how to group faces by pose (facing left/right/etc) using unsupervised clustering like k-means?
-
-Thank you so much for your time!
