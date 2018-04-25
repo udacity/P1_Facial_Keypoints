@@ -171,3 +171,5 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Predict and display the keypoints on each detected face. | After face detection with a Haar cascade and face pre-processing, apply your trained model to each detected face, and display the predicted keypoints on each face in the image. |
+
+LICENSE: This project is licensed under the terms of the MIT license.
