@@ -56,7 +56,6 @@ cd P1_Facial_Keypoints
 	
 	- __Linux__ or __Mac__: 
 	```
-	conda install pytorch=0.3.1 torchvision -c pytorch
 	conda install pytorch torchvision -c pytorch 
 	```
 	- __Windows__: 
