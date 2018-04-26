@@ -37,7 +37,7 @@ git clone https://github.com/cezannec/P1_Facial_Keypoints.git
 cd P1_Facial_Keypoints
 ```
 
-2. Create (and activate) a new environment, named `ai` with Python 3.6 and the `numpy` and `pandas` packages for data loading and transformation. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+2. Create (and activate) a new environment, named `ai` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
 	- __Linux__ or __Mac__: 
 	```
