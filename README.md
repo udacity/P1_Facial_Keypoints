@@ -24,7 +24,7 @@ __Notebook 4__ : Fun Filters and Keypoint Uses
 
 ## Project Instructions
 
-All of the starting code and resources you'll need to compete this project are in this Github repository. Before you can get started coding, you'll have to make sure that you have all the libraries and dependencies required to support this project. If you have already created a `cv-nd` environment for exercise code, then you can use that environment! If not, instructions for creation and activation are below.
+All of the starting code and resources you'll need to compete this project are in this Github repository. Before you can get started coding, you'll have to make sure that you have all the libraries and dependencies required to support this project. If you have already created a `cv-nd` environment for [exercise code](https://github.com/udacity/CVND_Exercises), then you can use that environment! If not, instructions for creation and activation are below.
 
 *Note that this project does not require the use of GPU, so this repo does not include instructions for GPU setup.*
 
