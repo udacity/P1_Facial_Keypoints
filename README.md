@@ -66,7 +66,7 @@ cd P1_Facial_Keypoints
 
 6. Install a few required pip packages, which are specified in the requirements text file (including OpenCV).
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
