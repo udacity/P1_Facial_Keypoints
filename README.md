@@ -41,18 +41,18 @@ cd P1_Facial_Keypoints
 
 	- __Linux__ or __Mac__: 
 	```
-	conda create -n ai python=3.6 numpy pandas
+	conda create -n ai python=3.6
 	source activate ai
 	```
 	- __Windows__: 
 	```
-	conda create --name ai python=3.6 numpy pandas
+	conda create --name ai python=3.6
 	activate ai
 	```
 	
 	At this point your command line should look something like: `(ai) <User>:P1_Facial_Keypoints <user>$`. The `(ai)` indicates that your environment has been activated, and you can proceed with further package installations.
 
-3. Install PyTorch and torchvision.
+3. Install PyTorch and torchvision; this should install the latest version of PyTorch.
 	
 	- __Linux__ or __Mac__: 
 	```
