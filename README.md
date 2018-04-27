@@ -60,7 +60,7 @@ cd P1_Facial_Keypoints
 	```
 	- __Windows__: 
 	```
-	conda install -c peterjc123 pytorch-cpu
+	conda install pytorch-cpu -c pytorch
 	pip install torchvision
 	```
 
