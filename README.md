@@ -33,7 +33,7 @@ All of the starting code and resources you'll need to compete this project are i
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/cezannec/P1_Facial_Keypoints.git
+git clone https://github.com/udacity/P1_Facial_Keypoints.git
 cd P1_Facial_Keypoints
 ```
 
