@@ -24,7 +24,7 @@ __Notebook 4__ : Fun Filters and Keypoint Uses
 
 ## Project Instructions
 
-All of the starting code and resources you'll need to compete this project are in this Github repository. Before you can get started coding, you'll have to make sure that you have all the libraries and dependencies required to support this project. If you have already created a `cv-nd` environment for [exercise code](https://github.com/udacity/CVND_Exercises), then you can use that environment! If not, instructions for creation and activation are below.
+All of the starting code and resources you'll need to complete this project are in this Github repository. Before you can get started coding, you'll have to make sure that you have all the libraries and dependencies required to support this project. If you have already created a `cv-nd` environment for [exercise code](https://github.com/udacity/CVND_Exercises), then you can use that environment! If not, instructions for creation and activation are below.
 
 *Note that this project does not require the use of GPU, so this repo does not include instructions for GPU setup.*
 
@@ -39,26 +39,26 @@ cd P1_Facial_Keypoints
 
 2. Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
-	- __Linux__ or __Mac__: 
+	- __Linux__ or __Mac__:
 	```
 	conda create -n cv-nd python=3.6
 	source activate cv-nd
 	```
-	- __Windows__: 
+	- __Windows__:
 	```
 	conda create --name cv-nd python=3.6
 	activate cv-nd
 	```
-	
+
 	At this point your command line should look something like: `(cv-nd) <User>:P1_Facial_Keypoints <user>$`. The `(cv-nd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 3. Install PyTorch and torchvision; this should install the latest version of PyTorch.
-	
-	- __Linux__ or __Mac__: 
+
+	- __Linux__ or __Mac__:
 	```
-	conda install pytorch torchvision -c pytorch 
+	conda install pytorch torchvision -c pytorch
 	```
-	- __Windows__: 
+	- __Windows__:
 	```
 	conda install pytorch-cpu -c pytorch
 	pip install torchvision
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ### Data
 
-All of the data you'll need to train a neural network is in the P1_Facial_Keypoints repo, in the subdirectory `data`. In this folder are training and tests set of image/keypoint data, and their respective csv files. This will be further explored in Notebook 1: Loading and Visualizing Data, and you're encouraged to look trough these folders on your own, too.
+All of the data you'll need to train a neural network is in the P1_Facial_Keypoints repo, in the subdirectory `data`. In this folder are training and tests set of image/keypoint data, and their respective csv files. This will be further explored in Notebook 1: Loading and Visualizing Data, and you're encouraged to look through these folders on your own, too.
 
 
 ## Notebooks
@@ -110,48 +110,48 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 ### `models.py`
 
 #### Specify the CNN architecture
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 |  Define a CNN in `models.py`. |  Define a convolutional neural network with at least one convolutional layer, i.e. self.conv1 = nn.Conv2d(1, 32, 5). The network should take in a grayscale, square image. |
 
 
 ### Notebook 2
 
 #### Define the data transform for training and test data
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 |  Define a `data_transform` and apply it whenever you instantiate a DataLoader. |  The composed transform should include: rescaling/cropping, normalization, and turning input images into torch Tensors. The transform should turn any input image into a normalized, square, grayscale image and then a Tensor for your model to take it as input. |
 
 #### Define the loss and optimization functions
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 |  Select a loss function and optimizer for training the model. |  The loss and optimization functions should be appropriate for keypoint detection, which is a regression problem. |
 
 
 #### Train the CNN
 
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 | Train your model.  |  Train your CNN after defining its loss and optimization functions. You are encouraged, but not required, to visualize the loss over time/epochs by printing it out occasionally and/or plotting the loss over time. Save your best trained model. |
 
 
 #### Answer questions about model architecture
 
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 | All questions about model, training, and loss choices are answered.  | After training, all 3 questions in notebook 2 about model architecture, choice of loss function, and choice of batch_size and epoch parameters are answered. |
 
 
 #### Visualize one or more learned feature maps
 
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 | Apply a learned convolutional kernel to an image and see its effects. |  Your CNN "learns" (updates the weights in its convolutional layers) to recognize features and this step requires that you extract at least one convolutional filter from the trained model, apply it to an image, and see what effect this filter has on the image. |
 
 
 #### Answer question about feature visualization
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 |  After visualizing a feature map, answer: what do you think it detects? | This answer should be informed by how the filtered image (from the step above) looks. |
 
 
@@ -159,18 +159,18 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 ### Notebook 3
 
 #### Detect faces in a given image
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 | Use a haar cascade face detector to detect faces in a given image. | The submission successfully employs OpenCV's face detection to detect all faces in a selected image. |
 
 #### Transform each detected face into an input Tensor
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 | Turn each detected image of a face into an appropriate input Tensor. | You should transform any face into a normalized, square, grayscale image and then a Tensor for your model to take in as input (similar to what the `data_transform` did in Notebook 2). |
 
 #### Predict and display the keypoints
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
+| Criteria       		|     Meets Specifications	        			            |
+|:---------------------:|:---------------------------------------------------------:|
 | Predict and display the keypoints on each detected face. | After face detection with a Haar cascade and face pre-processing, apply your trained model to each detected face, and display the predicted keypoints on each face in the image. |
 
 LICENSE: This project is licensed under the terms of the MIT license.
